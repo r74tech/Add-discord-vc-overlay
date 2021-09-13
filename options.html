@@ -4,23 +4,41 @@
   <title>Add Discord VC Overlay</title>
   <script type="text/javascript" src="js/prototype.js"></script>
   <script type="text/javascript" src="js/options.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.css">
+  <link rel="stylesheet" href="css/bulma-checkradio.min.css">
 </head>
 <body>
 <script type="text/javascript" src="js/analytics.js"></script>
 <div>
-  <img src="img/icon128.png" />
   <div>Add Discord VC Overlay</div>
 </div>
-<div><span id="opt***"></span></div>
+<div><span id="opt_options_title"></span></div>
 <table>
   <tr>
     <td>
-      <input type="checkbox" id="***" />
-    </td>
-    <td>
-      <span id="opt***"></span>
+      <div class="field">
+        <input class="is-checkradio" id="limit_speaking" type="checkbox" name="exampleCheckbox">
+        <label for="limit_speaking" id="opt_limit_speaking"></label>
+      </div>
     </td>
   </tr>
+  <tr>
+    <td>
+      <div class="field">
+        <input class="is-checkradio" id="small_avatars" type="checkbox" name="exampleCheckbox">
+        <label for="small_avatars" id="opt_small_avatars"></label>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="field">
+        <input class="is-checkradio" id="hide_names" type="checkbox" name="exampleCheckbox">
+        <label for="hide_names" id="opt_hide_names"></label>
+      </div>
+    </td>
+  </tr>
+
 </table>
 </body>
 </html>

@@ -14,8 +14,10 @@
 //         },
 //         assignMessages: function() {
 //             var hash = {
-//                 "opt***": "opt***",
-//         ・・・
+//                 "opt_options_title": "opt_options_title",
+//                 "opt_limit_speaking": "opt_limit_speaking",
+//                 "opt_small_avatars": "opt_small_avatars",
+//                 "opt_hide_names": "opt_hide_names",
 //         };
 //             for (var key in hash) {
 //                 $(key).innerHTML = chrome.i18n.getMessage(hash[key]);
