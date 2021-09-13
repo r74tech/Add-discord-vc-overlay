@@ -1,18 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "name",
+  "name": "Add Discord VC Overlay",
   "description": "__MSG_extDescription__",
   "version": "0.0.1",
   "browser_action": {
-    "default_icon": "./icon_16.png",
     "default_popup": "./popup.html"
   },
   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
-  "icons": {
-    "16": "./icon_16.png",
-    "48": "./icon_48.png",
-    "128": "./icon_128.png"
-  },
   "background": {
     "page": "./background.html"
   },
@@ -22,6 +16,10 @@
     "https://*/*",
     "file:///*"
   ],
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["js/content.js"]
+  }],
   "options_page": "options.html",
   "default_locale": "en"
 }
