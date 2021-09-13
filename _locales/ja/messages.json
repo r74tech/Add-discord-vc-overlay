@@ -1,0 +1,23 @@
+{
+  "extDescription": {
+    "message": "この拡張機能はDiscordのVC OverlayをChromeで表示するためのものです。"
+  },
+  "popup_opttitle": {
+    "message": "詳細設定"
+  },
+  "popup_optdiscript": {
+    "message": "後日追加"
+  },
+  "opt_options_title": {
+    "message": "詳細設定"
+  },
+  "opt_limit_speaking": {
+    "message": "話しているユーザーのみ表示する"
+  },
+  "opt_small_avatars": {
+    "message": "小さなアバターを表示"
+  },
+  "opt_hide_names": {
+    "message": "名前を非表示"
+  }
+}

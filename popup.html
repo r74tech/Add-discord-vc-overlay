@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <script type="text/javascript" src="js/prototype.js"></script>
-  <script type="text/javascript" src="js/popup.js"></script>
+  <script type="text/javascript" src="js/popup.js" async></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
   <div class="card">
     <header class="card-header">
       <p class="card-header-title">
-        Add Discord VC Ove
+        Add Discord VC Overlay
       </p>
     </header>
     <div class="card-content">
@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="field">
-          <label class="label">Server ID</label>
+          <label class="label">Channel ID</label>
           <div class="control">
             <input
                 class="input"
@@ -47,6 +47,9 @@
         </details>
         <div id="connect">
           <button id="connect-button" class="button is-link">Connect</button>
+          <button id="save-button" class="button is-link">保存</button>
+          <button id="reload-button" class="button is-link">反映</button>
+          <span id="status"></span>
         </div>
       </div>
     </div>

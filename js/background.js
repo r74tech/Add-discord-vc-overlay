@@ -1,20 +1,16 @@
-// var Background = Class.create({
-//     initialize: function() {
-//         this.assignEventHandlers();
-//     },
-//     assignEventHandlers: function() {
-//     ・・・
-//     },
-//     get***Config: function() {
-//         var value = localStorage["***"];
-//         if (value) {
-//             return value;
-//         } else {
-//             return "初期値の値";
-//         }
-//     },
-//     set***Config: function(value) {
-//         localStorage["***"] = value;
-//     }
-// });
-// var bg = new Background();
+var Background = Class.create({
+  initialize: function () {
+    this.assignEventHandlers();
+  },
+  assignEventHandlers: function () {
+    chrome.tabs.onUpdated.addListener(function (id, changeInfo, tab) {
+      this.onSelectionChanged(id);
+    }.bind(this));
+  },
+  onSelectionChanged: function(tabId) {
+    chrome.tabs.executeScript(tabId, {
+      file: "js/content.js"
+    });
+  }
+});
+var bg = new Background();
