@@ -1,4 +1,4 @@
-# Add tag description system
+# Add Discord VC Overlay
 ![](https://img.shields.io/github/v/release/rta-technology/add-discord-vc-overlay?include_prereleases) ![color:red](https://img.shields.io/github/downloads/rta-technology/add-discord-vc-overlay/total)   
 You can show Discord's Voice Chat overlay on Chrome.
 
