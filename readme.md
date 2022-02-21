@@ -18,7 +18,7 @@ Discord側のstreamkitの仕様変更によるものです。詳しく言うと�
 
 
 # Add Discord VC Overlay
-![](https://img.shields.io/github/v/release/rta-technology/add-discord-vc-overlay?include_prereleases) ![color:red](https://img.shields.io/github/downloads/rta-technology/add-discord-vc-overlay/total)   
+![](https://img.shields.io/github/v/release/rta-technology/add-discord-vc-overlay?include_prereleases&style=for-the-badge) ![color:red](https://img.shields.io/github/downloads/RTa-technology/Add-discord-vc-overlay/total?style=for-the-badge)   
 You can show Discord's Voice Chat overlay on Chrome.
 
 ## How to Install
