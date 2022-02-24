@@ -1,3 +1,12 @@
+# Attention
+This repository has been temporarily frozen.  
+Reason:  
+This is due to a change in the Discord streamkit. To be more precise, it can no longer be displayed due to CORS error.  
+So we are planning to implement it in the official way of Discord API.  
+Please wait until then.  
+We apologize for the inconvenience and thank you for your patience.  
+
+
 # Add Discord VC Overlay
 ![](https://img.shields.io/github/v/release/rta-technology/add-discord-vc-overlay?include_prereleases&style=for-the-badge) ![color:red](https://img.shields.io/github/downloads/RTa-technology/Add-discord-vc-overlay/total?style=for-the-badge)   
 You can show Discord's Voice Chat overlay on Chrome.
